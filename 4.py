@@ -8,3 +8,10 @@
 # 24 -> 4  16  4
 # 60 -> 10  40  10
 
+number = int(input('Введите число: '))
+
+if number % 6 == 0:
+    temp = number / 6
+    print(f'{temp} - {temp*4} - {temp}')
+else:
+    print(f'Данные неверны')
